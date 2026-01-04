@@ -32,7 +32,7 @@ git clone https://github.com/colla538/dofiles.git
 cd ~./dotfiles
 ```
 
-4. Use `stow .` to put the config in their places
+4. Use `stow` in `~/.dotfiles` directory to put the config in their places
 
 ```sh
 stow .
