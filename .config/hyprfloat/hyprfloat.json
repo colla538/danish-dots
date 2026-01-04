@@ -1,0 +1,17 @@
+{
+	"terminal_classes":[
+		"foot",
+		"btop",
+		"org.kde.konsole"
+	],
+	"ignore_titles":[
+		"notificationtoasts_\\d+_desktop"
+	],
+	"monitors":{
+		"eDP-1":{
+			"width":1364,
+			"height":767,
+			"offset":[0,0]
+		}
+	}
+}
