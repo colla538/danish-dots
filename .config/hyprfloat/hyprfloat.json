@@ -2,7 +2,8 @@
 	"terminal_classes":[
 		"foot",
 		"btop",
-		"org.kde.konsole"
+		"org.kde.konsole",
+		"spotify"
 	],
 	"ignore_titles":[
 		"notificationtoasts_\\d+_desktop"
