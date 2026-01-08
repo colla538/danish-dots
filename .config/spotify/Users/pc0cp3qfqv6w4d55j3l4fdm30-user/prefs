@@ -1,4 +1,6 @@
-connect.mdns_devices="[]"
-connect.dial_devices="[{\"address\":\"192.168.1.141\",\"app_state\":\"MISSING\",\"created_timestamp\":1767542502,\"device_id\":\"00000000-0000-0000-0000-2072a9ba9bce\",\"dial_location_url\":\"http://192.168.1.141:56790/dd.xml\",\"display_name\":\"Mediatek_MTXXXX\",\"last_seen\":1767542754,\"manufacturer\":\"MediaTek Inc.\",\"model_name\":\"Mediatek_MTXXXX\",\"product_cap\":\"\",\"public_ip\":\"14.192.213.58\",\"wol\":{\"all_interfaces\":false,\"delay_ms\":250,\"mac\":\"18ef3a5aef52\",\"port\":9,\"retries\":240}}]"
 audio.play_bitrate_non_metered_migrated=true
+connect.dial_devices="[{\"address\":\"192.168.1.141\",\"app_state\":\"MISSING\",\"created_timestamp\":1767542502,\"device_id\":\"00000000-0000-0000-0000-2072a9ba9bce\",\"dial_location_url\":\"http://192.168.1.141:56790/dd.xml\",\"display_name\":\"Mediatek_MTXXXX\",\"last_seen\":1767542754,\"manufacturer\":\"MediaTek Inc.\",\"model_name\":\"Mediatek_MTXXXX\",\"product_cap\":\"\",\"public_ip\":\"14.192.213.58\",\"wol\":{\"all_interfaces\":false,\"delay_ms\":250,\"mac\":\"18ef3a5aef52\",\"port\":9,\"retries\":240}}]"
+connect.mdns_devices="[]"
+audio.normalize_v2=false
 ui.hide_hpto=true
+audio.automix=false

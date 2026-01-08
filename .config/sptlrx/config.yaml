@@ -1,0 +1,49 @@
+cookie: "sp_t=a7d5ada6-5595-4215-a362-b1a8f091947b; sp_landing=https%3A%2F%2Fopen.spotify.com%2F; sp_new=1; OptanonConsent=isGpcEnabled=0&datestamp=Tue+Jan+06+2026+22%3A47%3A58+GMT%2B0800+(Malaysia+Time)&version=202411.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&landingPath=NotLandingPage&groups=s00%3A1%2Cf00%3A1%2Cm00%3A1%2Ct00%3A1%2Ci00%3A1%2Cf11%3A1%2Cm03%3A1%2CID01%3A1&AwaitingReconsent=false; _cs_mk_ga=0.27956146313165864_1767710489209; _ga_ZWG1NSHWD8=GS2.1.s1767710489$o1$g1$t1767711077$j60$l0$h0; _ga=GA1.2.1377528591.1767710490; sp_adid=376b5630-dbd6-465e-bd9c-69e6812d91e3; _hp5_event_props.4043975597=%7B%7D; _hp5_let.4043975597=1767711076618; _hp5_meta.4043975597=%7B%22userId%22%3A%228326816192167799%22%2C%22sessionId%22%3A%221930839799045514%22%2C%22sessionProperties%22%3A%7B%22time%22%3A1767710490493%2C%22id%22%3A%221930839799045514%22%2C%22utm%22%3A%7B%22source%22%3A%22%22%2C%22medium%22%3A%22%22%2C%22term%22%3A%22%22%2C%22content%22%3A%22%22%2C%22campaign%22%3A%22%22%7D%2C%22initial_pageview_info%22%3A%7B%22time%22%3A1767710490493%2C%22id%22%3A%227005792410190047%22%2C%22title%22%3A%22Spotify%20-%20Web%20Player%3A%20Music%20for%20everyone%22%2C%22url%22%3A%7B%22domain%22%3A%22open.spotify.com%22%2C%22path%22%3A%22%2F%22%2C%22query%22%3A%22%22%2C%22hash%22%3A%22%22%7D%7D%2C%22search_keyword%22%3A%22%22%2C%22referrer%22%3A%22%22%7D%7D; _gid=GA1.2.1025266478.1767710491; _ga_BMC5VGR8YS=GS2.2.s1767710491$o1$g1$t1767710878$j46$l0$h0; sp_dc=AQA8CXvbAGImkvRXZz2gUxvwrhimXGaVu_s3ydvWNqzNnm64RWSnVjRF9ChPTjPiRcfTxLEdYECynUmvXf0He4NgRrfHMe2SdxWAgdWKKbeD3tLeUsm0Blz4yCogRZ-_jGOn0k_U-zQcJmpC_oHevhHGxFxAuj1Jns6-J-XaeJMbkiNrWUGTAHhU5vIg7Azl9lp4NvKAZM7L9Yz3r_lQa5NBOUfAC7RHtPTV8sLYJ31t-PQrjqClJroHhdnIgcBa9w0dFWwLdlDrjnw; sp_key=d3c05fd4-aa55-4f88-8447-aace5ce05671; sp_gaid=0088fc82c8428bae9a68773cc5b7f62812d4adfba318b8c79be9ab; OptanonAlertBoxClosed=2026-01-06T14:47:58.500Z"
+player: spotify
+host: lyricsapi.vercel.app
+ignoreErrors: true
+timerInterval: 200
+updateInterval: 2000
+style:
+  hAlignment: center
+  before:
+    background: ""
+    foreground: ""
+    bold: true
+    italic: false
+    underline: false
+    strikethrough: false
+    blink: false
+    faint: false
+  current:
+    background: ""
+    foreground: ""
+    bold: true
+    italic: false
+    underline: false
+    strikethrough: false
+    blink: false
+    faint: false
+  after:
+    background: ""
+    foreground: ""
+    bold: false
+    italic: false
+    underline: false
+    strikethrough: false
+    blink: false
+    faint: true
+pipe:
+  length: 0
+  overflow: word
+mpd:
+  address: 127.0.0.1:6600
+  password: ""
+mopidy:
+  address: 127.0.0.1:6680
+mpris:
+  players: []
+browser:
+  port: 8974
+local:
+  folder: ""

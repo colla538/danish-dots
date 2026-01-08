@@ -89,3 +89,4 @@ eval "$(zoxide init zsh)"
 
 alias cd="z"
 alias install="sudo pacman -S --noconfirm"
+alias nanostix="nano"
