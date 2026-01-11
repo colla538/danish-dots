@@ -83,7 +83,7 @@ precmd() {
   print ""
 }
 
-wal -q -R
+wal -q -R --vte
 
 eval "$(zoxide init zsh)"
 
