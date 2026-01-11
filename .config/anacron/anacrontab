@@ -1,0 +1,2 @@
+# Period(days)  Delay(minutes)  Job-ID           Command
+7               10              dotfiles_sync    /bin/bash ~/dotfiles/git-push.sh
