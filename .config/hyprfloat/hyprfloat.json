@@ -1,18 +1,19 @@
 {
 	"terminal_classes":[
-		"foot",
-		"btop",
-		"org.kde.konsole",
-		"spotify"
-	],
-	"ignore_titles":[
-		"notificationtoasts_\\d+_desktop"
+		"spotify",
+		"cava",
+		"foot"
 	],
 	"monitors":{
+		"HDMI-A-1":{
+			"width":847,
+			"height":1754,
+			"offset": [0, 0]
+		},
 		"eDP-1":{
 			"width":1364,
 			"height":767,
-			"offset":[0,0]
+			"offset": [0, 0]
 		}
 	}
 }

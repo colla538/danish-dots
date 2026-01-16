@@ -1,12 +1,8 @@
-# Profile for when you are at your desk with the HP monitor
-
 profile {
-    output "Samsung Display Corp. 0x4141" enable mode 1920x1080 position 0,0
-    output "Hewlett Packard HP Z23i 3CQ4281QZ3" enable mode 1920x1080 position 1920,0
+    output "Samsung Display Corp. *" enable position 0,0
+    output "Hewlett Packard HP Z23i *" enable position 1920,-840 transform 90
 }
 
-# Profile for when you are on the go (laptop only)
-
 profile {
-    output "Samsung Display Corp. 0x4141" enable mode 1920x1080 position 0,0
+    output "Samsung Display Corp. *" enable mode 1920x1080 position 0,0
 }

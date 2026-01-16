@@ -1,4 +1,4 @@
-# Created by `pipx` on 2025-12-30 10:22:05
+#(cat ~/.cache/wal/sequences &) Created by `pipx` on 2025-12-30 10:22:05
 export PATH="$PATH:/home/danish/.local/bin"
 
 # ---- Basic behavior ----
@@ -83,10 +83,12 @@ precmd() {
   print ""
 }
 
-wal -q -R --vte
+# wal -q -R --vte
 
 eval "$(zoxide init zsh)"
 
 alias cd="z"
 alias install="sudo pacman -S --noconfirm"
 alias nanostix="nano"
+cat ~/.cache/wal/sequences
+source ~/.cache/wal/colors-tty.sh
