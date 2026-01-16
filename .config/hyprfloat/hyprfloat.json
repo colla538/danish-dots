@@ -1,14 +1,16 @@
 {
 	"terminal_classes":[
-		"spotify",
 		"cava",
 		"foot"
 	],
+	"ignore_titles":[
+		"spotify"
+	],
 	"monitors":{
 		"HDMI-A-1":{
-			"width":847,
-			"height":1754,
-			"offset": [0, 0]
+			"width":1010,
+			"height":950,
+			"offset": [1, 0]
 		},
 		"eDP-1":{
 			"width":1364,
