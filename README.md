@@ -19,7 +19,7 @@ My Dotfiles
 - AUR
     - hyprfloat 
     - tty-clock (clock)
-
+    - volnoti (volume slider)
 ## Installation steps
 1. clone repo
 ```sh
