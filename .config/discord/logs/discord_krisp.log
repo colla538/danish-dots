@@ -1,0 +1,8 @@
+[2026-Jan-09 00:47:46.433 +08:00][ 5801: 5801][info ] Logging initialized
+[2026-Jan-09 00:47:46.433 +08:00][ 5801: 5801][info ] Initializing krisp SDK...
+[2026-Jan-09 00:47:46.433 +08:00][ 5801: 5801][info ] DoKrispInitialize
+[2026-Jan-09 00:47:47.063 +08:00][ 5801: 5801][info ] LoadDynamicKrisp
+[2026-Jan-09 00:47:47.063 +08:00][ 5801: 5801][info ] Did not find KRISP_DYLIB_PATH, skipping dynamic loading
+[2026-Jan-09 00:47:47.063 +08:00][ 5801: 5801][info ] Initializing Krisp SDK in PID 5801, addr 0x7f7c9e92cf90
+[2026-Jan-09 00:47:47.064 +08:00][ 5801: 5801][info ] Initialized Krisp SDK successfully
+[2026-Jan-09 00:47:47.064 +08:00][ 5801: 5801][info ] Krisp SDK initialized

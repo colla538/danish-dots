@@ -1,0 +1,138 @@
+00:22:33.926: Platform: Wayland
+00:22:33.926: CPU Name: Intel(R) Core(TM) i7-9850H CPU @ 2.60GHz
+00:22:33.926: CPU Speed: 2600.479MHz
+00:22:33.926: Physical Cores: 6, Logical Cores: 12
+00:22:33.926: Physical Memory: 31691MB Total, 28059MB Free
+00:22:33.926: Kernel Version: Linux 6.18.6-arch1-1
+00:22:33.926: Distribution: "Arch Linux" Unknown
+00:22:33.926: Desktop Environment: Hyprland (Hyprland)
+00:22:33.926: Session Type: wayland
+00:22:33.942: Current Date/Time: 2026-01-22, 12:22:33 AM
+00:22:33.942: Browser Hardware Acceleration: true
+00:22:33.942: Qt Version: 6.10.1 (runtime), 6.10.1 (compiled)
+00:22:33.942: Portable mode: false
+00:22:34.019: OBS 32.0.4 (linux)
+00:22:34.019: ---------------------------------
+00:22:34.022: ---------------------------------
+00:22:34.022: audio settings reset:
+00:22:34.022: 	samples per sec: 48000
+00:22:34.022: 	speakers:        2
+00:22:34.022: 	max buffering:   960 milliseconds
+00:22:34.022: 	buffering type:  dynamically increasing
+00:22:34.025: ---------------------------------
+00:22:34.025: Initializing OpenGL...
+00:22:34.025: Using EGL/Wayland
+00:22:34.112: Initialized EGL 1.5
+00:22:34.133: Loading up OpenGL on adapter Intel Mesa Intel(R) UHD Graphics 630 (CFL GT2)
+00:22:34.133: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 25.3.3-arch1.3, shading language 4.60
+00:22:34.186: ---------------------------------
+00:22:34.186: video settings reset:
+00:22:34.186: 	base resolution:   1366x768
+00:22:34.186: 	output resolution: 1280x720
+00:22:34.186: 	downscale filter:  Bicubic
+00:22:34.186: 	fps:               30/1
+00:22:34.186: 	format:            NV12
+00:22:34.186: 	YUV mode:          Rec. 709/Partial
+00:22:34.186: NV12 texture support enabled
+00:22:34.186: P010 texture support not available
+00:22:34.194: Audio monitoring device:
+00:22:34.194: 	name: Default
+00:22:34.194: 	id: default
+00:22:34.198: ---------------------------------
+00:22:34.201: Failed to load 'en-US' text for module: 'decklink-captions.so'
+00:22:34.204: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+00:22:34.207: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+00:22:34.207: Failed to initialize module 'decklink.so'
+00:22:34.407: [pipewire] No capture sources available
+00:22:34.469: LIBVA_DRIVER_NAME variable is set, this could prevent FFmpeg VAAPI from working correctly
+00:22:34.898: VAAPI: API version 1.22
+00:22:34.986: FFmpeg VAAPI H264 encoding supported
+00:22:35.281: FFmpeg VAAPI AV1 encoding supported
+00:22:35.586: FFmpeg VAAPI HEVC encoding supported
+00:22:35.833: [obs-nvenc] NVENC version: 13.0 (compiled) / 13.0 (driver), CUDA driver version: 13.10, AV1 supported: false
+00:22:37.052: [obs-websocket] [obs_module_load] you can haz websockets (Version: 5.6.3 | RPC Version: 1)
+00:22:37.052: [obs-websocket] [obs_module_load] Qt version (compile-time): 6.10.1 | Qt version (run-time): 6.10.1
+00:22:37.052: [obs-websocket] [obs_module_load] Linked ASIO Version: 103600
+00:22:37.064: [obs-websocket] [obs_module_load] Module loaded.
+00:22:37.074: ---------------------------------
+00:22:37.074:   Loaded Modules:
+00:22:37.074:     text-freetype2.so
+00:22:37.074:     rtmp-services.so
+00:22:37.074:     obs-x264.so
+00:22:37.074:     obs-websocket.so
+00:22:37.074:     obs-webrtc.so
+00:22:37.074:     obs-vst.so
+00:22:37.074:     obs-transitions.so
+00:22:37.074:     obs-qsv11.so
+00:22:37.074:     obs-outputs.so
+00:22:37.074:     obs-nvenc.so
+00:22:37.074:     obs-libfdk.so
+00:22:37.074:     obs-filters.so
+00:22:37.074:     obs-ffmpeg.so
+00:22:37.074:     linux-v4l2.so
+00:22:37.074:     linux-pulseaudio.so
+00:22:37.074:     linux-pipewire.so
+00:22:37.074:     linux-jack.so
+00:22:37.074:     linux-capture.so
+00:22:37.074:     linux-alsa.so
+00:22:37.074:     image-source.so
+00:22:37.074:     frontend-tools.so
+00:22:37.074:     decklink-output-ui.so
+00:22:37.074:     decklink-captions.so
+00:22:37.074: ---------------------------------
+00:22:37.075: ---------------------------------
+00:22:37.075: Available Encoders:
+00:22:37.075:   Video Encoders:
+00:22:37.075: 	- ffmpeg_svt_av1 (SVT-AV1)
+00:22:37.075: 	- ffmpeg_aom_av1 (AOM AV1)
+00:22:37.075: 	- ffmpeg_vaapi_tex (FFmpeg VAAPI H.264)
+00:22:37.075: 	- av1_ffmpeg_vaapi_tex (FFmpeg VAAPI AV1)
+00:22:37.075: 	- hevc_ffmpeg_vaapi_tex (FFmpeg VAAPI HEVC)
+00:22:37.075: 	- obs_nvenc_h264_tex (NVIDIA NVENC H.264)
+00:22:37.075: 	- obs_nvenc_hevc_tex (NVIDIA NVENC HEVC)
+00:22:37.075: 	- obs_x264 (x264)
+00:22:37.075:   Audio Encoders:
+00:22:37.075: 	- ffmpeg_aac (FFmpeg AAC)
+00:22:37.075: 	- ffmpeg_opus (FFmpeg Opus)
+00:22:37.075: 	- ffmpeg_pcm_s16le (FFmpeg PCM (16-bit))
+00:22:37.075: 	- ffmpeg_pcm_s24le (FFmpeg PCM (24-bit))
+00:22:37.075: 	- ffmpeg_pcm_f32le (FFmpeg PCM (32-bit float))
+00:22:37.075: 	- ffmpeg_alac (FFmpeg ALAC (24-bit))
+00:22:37.075: 	- ffmpeg_flac (FFmpeg FLAC (16-bit))
+00:22:37.075: 	- libfdk_aac (libfdk AAC)
+00:22:37.075: ==== Startup complete ===============================================
+00:22:37.138: Failed to register with host portal QDBusError("org.freedesktop.DBus.Error.ServiceUnknown", "The name is not activatable")
+00:22:37.139: All scene data cleared
+00:22:37.139: ------------------------------------------------
+00:22:37.140: Device for 'Audio Output Capture' source Desktop Audio is also used for audio monitoring.
+00:22:37.140: Deduplication logic is being applied to all monitored sources.
+00:22:37.140: pulse-input: Unable to get server info !
+00:22:37.141: [Loaded global audio device]: 'Desktop Audio'
+00:22:37.141: Source ID 'pipewire-screen-capture-source' not found
+00:22:37.141: Failed to create source 'Screen Capture (PipeWire)'!
+00:22:37.141: v4l2-input: Start capture from /dev/video0
+00:22:37.160: Device for 'Audio Output Capture' source Desktop Audio is also used for audio monitoring.
+00:22:37.160: Deduplication logic is being applied to all monitored sources.
+00:22:37.236: v4l2-input: Input: 0
+00:22:37.239: v4l2-input: Resolution: 1280x720
+00:22:37.239: v4l2-input: Pixelformat: BGR3
+00:22:37.239: v4l2-input: Linesize: 3840 Bytes
+00:22:37.239: v4l2-input: Framerate: 30.00 fps
+00:22:37.240: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+00:22:37.241: Switched to scene 'breh'
+00:22:37.241: ------------------------------------------------
+00:22:37.241: Loaded scenes:
+00:22:37.241: - scene 'Scene':
+00:22:37.241:     - source: 'Screen Capture (PipeWire)' (pipewire-screen-capture-source)
+00:22:37.241: - scene 'breh':
+00:22:37.241:     - source: 'Video Capture Device (V4L2)' (v4l2_input)
+00:22:37.241: ------------------------------------------------
+00:23:14.915: obs-data.c: [obs_data_create_from_json] Failed reading json string (1): '[' or '{' expected near end of file
+00:23:14.918: User added source 'Video Capture Device (PipeWire) (BETA)' (pipewire-camera-source) to scene 'breh'
+00:23:14.932: [camera-portal] Selected format for ''
+00:23:14.932: [camera-portal] selected camera ''
+00:23:14.945: [camera-portal] Error accessing camera: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+00:27:11.420: ==== Shutting down ==================================================
+00:27:11.435: Deduplication logic stopped.
+00:27:11.449: v4l2-input: /dev/video0: Stopped capture after 8208 frames
+00:27:11.535: The Wayland connection broke. Did the Wayland compositor die?

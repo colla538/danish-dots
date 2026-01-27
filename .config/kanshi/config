@@ -1,8 +1,10 @@
 profile {
     output "Samsung Display Corp. *" enable position 0,0
     output "Hewlett Packard HP Z23i *" enable position 1920,-840 transform 90
+    exec hyprctl reload
 }
 
 profile {
     output "Samsung Display Corp. *" enable mode 1920x1080 position 0,0
-}
+    exec hyprctl reload
+}q

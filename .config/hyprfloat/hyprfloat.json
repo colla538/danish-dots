@@ -10,7 +10,7 @@
 		"HDMI-A-1":{
 			"width":1010,
 			"height":950,
-			"offset": [1, 0]
+			"offset": [0, 0]
 		},
 		"eDP-1":{
 			"width":1364,

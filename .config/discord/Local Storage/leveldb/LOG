@@ -1,0 +1,8 @@
+2026/01/09-00:47:17.397 1636 Creating DB /home/danish/.config/discord/Local Storage/leveldb since it was missing.
+2026/01/09-00:47:17.432 1636 Reusing MANIFEST /home/danish/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2026/01/09-00:51:35.238 1637 Level-0 table #5: started
+2026/01/09-00:51:35.316 1637 Level-0 table #5: 4252455 bytes OK
+2026/01/09-00:51:35.322 1637 Delete type=0 #3
+2026/01/09-00:58:35.447 1636 Level-0 table #7: started
+2026/01/09-00:58:35.456 1636 Level-0 table #7: 28171 bytes OK
+2026/01/09-00:58:35.462 1636 Delete type=0 #4

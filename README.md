@@ -8,7 +8,7 @@ My Dotfiles
   - networkmanager (for wifi interface)
   - hyprlock (lockscreen)
   - ttf-meslo-nerd (fonts)
-  - swaybg (wallpaper)
+  - ~~swaybg~~ hyprpaper (wallpaper)
   - swaync (notification)
   - waybar (bar)
   - grim, slurp, swappy (screenshot)
@@ -20,6 +20,7 @@ My Dotfiles
     - hyprfloat 
     - tty-clock (clock)
     - volnoti (volume slider)
+    - python-pywalfox (Firefox color matching)
 ## Installation steps
 1. clone repo
 ```sh
@@ -37,6 +38,4 @@ cd ~./dotfiles
 ```sh
 stow .
 ```
-
-
 
