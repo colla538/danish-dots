@@ -3,18 +3,24 @@
 handle() {
   case $1 in
     monitorremoved*)
-      # Move workspaces 1 through 10 to DP-1 manually
-      for i in {1..10}
+      # Wait for the hardware handshake to finish
+      sleep 0.5
+      
+      # 1. Find all active workspaces (Greps IDs from 'hyprctl workspaces')
+      ACTIVE_WS=$(hyprctl workspaces | grep "workspace ID" | awk '{print $3}')
+
+      # 2. Loop through only the active ones and move them to eDP-1
+      for ws in $ACTIVE_WS
       do
-        hyprctl dispatch moveworkspacetomonitor "$i" DP-1
+        hyprctl dispatch moveworkspacetomonitor "$ws" eDP-1 >/dev/null 2>&1
       done
       
-      # Force DP-1 to show workspace 1 and take focus
-      hyprctl dispatch focusmonitor DP-1
+      # 3. Focus the laptop and force view to Workspace 1
+      hyprctl dispatch focusmonitor eDP-1
       hyprctl dispatch workspace 1
       ;;
   esac
 }
 
-# Listen to the socket without the extra bloat
+# The Pipe: Connects Hyprland's events to our function
 socat -U - UNIX-CONNECT:$XDG_RUNTIME_DIR/hypr/$HYPRLAND_INSTANCE_SIGNATURE/.socket2.sock | while read -r line; do handle "$line"; done
