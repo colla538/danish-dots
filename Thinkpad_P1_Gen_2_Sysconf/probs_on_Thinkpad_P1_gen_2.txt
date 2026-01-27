@@ -1,0 +1,24 @@
+Caps Lock = work on latest hyprland config update
+Backlight = work on demand (BIOS Side)
+fingerprint = install fprintd, enroll using this command "sudo fprintd-enroll $USER" and add these lines to /etc/pam.d/sudo
+
+# auth            sufficient      pam_unix.so try_first_pass likeauth nullok
+# auth            sufficient      pam_fprintd.so
+
+sddm fingerprint login = go to /etc/pam.d/sddm and add these lines
+
+# auth 			[success=1 new_authtok_reqd=1 default=ignore]  	pam_unix.so try_first_pass likeauth nullok
+# auth 			sufficient  	pam_fprintd.so
+
+brightness = works on demand 
+sound vol = see cava config Line 89 
+volnoti = install from AUR
+
+
+
+
+Lists of Configs
+/etc/sddm.conf.d/hidpi.conf 
+/etc/default/grub
+/etc/tlp.conf
+/etc/kesboot.conf
